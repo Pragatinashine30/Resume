@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pragati Nashine - Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11pt;
+    color: #222;
+    background: #fff;
+    line-height: 1.45;
+  }
+
+  .page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 36px 48px;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 14px;
+    border-bottom: 2px solid #222;
+    padding-bottom: 12px;
+  }
+
+  .header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 22pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+  }
+
+  .header .title {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 6px;
+  }
+
+  .header .contact {
+    font-size: 9.5pt;
+    color: #333;
+  }
+
+  .header .contact a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* Section */
+  .section {
+    margin-bottom: 13px;
+  }
+
+  .section-title {
+    font-family: 'Merriweather', serif;
+    font-size: 11pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1.5px solid #222;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+  }
+
+  /* Summary */
+  .summary p {
+    font-size: 10.5pt;
+    color: #333;
+  }
+
+  /* Skills */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px 10px;
+  }
+
+  .skills-grid span {
+    font-size: 10pt;
+  }
+
+  .skills-grid span::before {
+    content: "• ";
+    font-weight: 700;
+  }
+
+  /* Experience */
+  .job {
+    margin-bottom: 12px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .job-title {
+    font-weight: 700;
+    font-size: 10.5pt;
+  }
+
+  .job-date {
+    font-size: 9.5pt;
+    color: #444;
+    white-space: nowrap;
+  }
+
+  .job-company {
+    font-size: 10pt;
+    color: #444;
+    margin-bottom: 4px;
+    font-style: italic;
+  }
+
+  .job ul {
+    padding-left: 16px;
+  }
+
+  .job ul li {
+    font-size: 10pt;
+    margin-bottom: 2px;
+    color: #333;
+  }
+
+  /* Projects */
+  .project {
+    margin-bottom: 10px;
+  }
+
+  .project-title {
+    font-weight: 700;
+    font-size: 10.5pt;
+    margin-bottom: 3px;
+  }
+
+  .project ul {
+    padding-left: 16px;
+  }
+
+  .project ul li {
+    font-size: 10pt;
+    margin-bottom: 2px;
+    color: #333;
+  }
+
+  /* Education */
+  .edu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+  }
+
+  .edu-degree {
+    font-weight: 700;
+    font-size: 10.5pt;
+  }
+
+  .edu-year {
+    font-size: 9.5pt;
+    color: #444;
+  }
+
+  .edu-school {
+    font-size: 10pt;
+    color: #444;
+    font-style: italic;
+  }
+
+  /* Certifications */
+  .cert-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .cert-list li {
+    font-size: 10pt;
+    margin-bottom: 2px;
+  }
+
+  .cert-list li::before {
+    content: "• ";
+    font-weight: 700;
+  }
+
+  @media print {
+    body { font-size: 10pt; }
+    .page { padding: 24px 36px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Pragati Nashine</h1>
+    <div class="title">Data Analyst Consultant</div>
+    <div class="contact">
+      Bengaluru India &nbsp;◆&nbsp; +91 62 6461 9127 &nbsp;◆&nbsp;
+      <a href="mailto:nashinepragati2001@gmail.com">nashinepragati2001@gmail.com</a> &nbsp;◆&nbsp;
+      WWW: <a href="https://bit.ly/4shx47B" target="_blank">Https://bit.ly/4shx47B</a> &nbsp;◆&nbsp;
+      LinkedIn: <a href="https://linkedin.com/in/pragati-nashine-164219217/" target="_blank">Linkedin.com/in/pragati-nashine-164219217/</a>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section summary">
+    <div class="section-title">Professional Summary</div>
+    <p>Results-driven Data Analyst and Power BI Developer with 2+ years of experience in SQL, data analysis, and dashboard development. Skilled in Power BI, DAX, and Power Query to deliver actionable insights. Strong in translating business requirements into interactive reports and analytical solutions. Collaborative team player focused on data-driven decision-making.</p>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <div class="skills-grid">
+      <span>Power BI</span>
+      <span>Tableau</span>
+      <span>SQL</span>
+      <span>Microsoft Excel</span>
+      <span>Trend analysis</span>
+      <span>Data Cleaning</span>
+      <span>Data Visualization</span>
+      <span>Data Modeling</span>
+      <span>KPI Development</span>
+      <span>Performance Analysis</span>
+      <span>Data storytelling</span>
+      <span>Data presentations</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">BI Support Analyst</span>
+        <span class="job-date">07/2024 - Current</span>
+      </div>
+      <div class="job-company">Pigeon Education – Bengaluru, India</div>
+      <ul>
+        <li>Developed interactive Power BI dashboards to track key business metrics, enabling data-driven decisions across departments.</li>
+        <li>Wrote and optimized SQL queries to extract and transform data from relational databases for accurate reporting.</li>
+        <li>Built and maintained data models to ensure consistent and reliable reporting across multiple business functions.</li>
+        <li>Performed data validation and ad-hoc analysis using Excel to support dashboard development and business reporting needs.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Data Analyst Consultant - Internship / Freelancer</span>
+        <span class="job-date">09/2025 - 03/2026</span>
+      </div>
+      <div class="job-company">Rubixe-AI Solution Company – Bangalore</div>
+      <ul>
+        <li>Collaborated with stakeholders to deliver data-driven insights using Power BI, SQL, and Python, to support strategic decision-making.</li>
+        <li>Designed Power BI dashboards using DAX and Power Query to visualize KPIs, trends, and business performance metrics.</li>
+        <li>Built data models and ETL pipelines using SQL and Python to extract, clean, and transform data from multiple sources.</li>
+        <li>Performed exploratory data analysis (EDA) using Excel and Python to uncover trends, improving business outcomes.</li>
+        <li>Delivered data storytelling presentations to senior stakeholders, translating complex insights into clear business recommendations.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Operations Analyst – Digital Finance</span>
+        <span class="job-date">08/2023 - 07/2024</span>
+      </div>
+      <div class="job-company">BYJU's - The Learning APP – Bengaluru, India</div>
+      <ul>
+        <li>Managed account and payment data to ensure the timely resolution of overdue accounts.</li>
+        <li>Prepared operational and financial reports to support decision-making.</li>
+        <li>Streamlined processes by documenting workflows and training team members.</li>
+        <li>Analyzed trends and provided insights to support data-driven decisions.</li>
+        <li>Conducted audits to maintain data accuracy, and operational integrity.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <div class="project-title">Retail Profitability &amp; Operations Intelligence</div>
+      <ul>
+        <li>Designed interactive dashboards and BI reports analyzing $578K revenue and $319K profit using Power BI, DAX, and Excel.</li>
+        <li>Developed and tracked KPIs and performance metrics including profit margin, lead time, defect rate, and revenue vs. cost, providing strategic insights for business decisions.</li>
+        <li>Evaluated supplier and vendor performance, identifying high-risk vendors and implementing cost optimization initiatives.</li>
+        <li>Performed data-driven analysis of shipping costs vs. revenue to improve logistics efficiency, operational processes, and profitability.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Customer Purchase Behavior Analysis</div>
+      <ul>
+        <li>Developed interactive Power BI dashboards analyzing $148K total revenue and $3K average revenue, with category- and payment-level insights.</li>
+        <li>Performed customer segmentation by age, gender, and payment method, identifying high-revenue segments (Female: $98K vs Male: $50K).</li>
+        <li>Built payment method and age-wise revenue analyses, highlighting Cash (45%) dominance and top revenue-generating age groups.</li>
+        <li>Designed DAX measures for KPIs, including revenue aggregation, category contribution, and payment distribution, with drill-down slicers for dynamic reporting.</li>
+        <li>Delivered actionable insights to optimize targeted marketing, customer segmentation, and payment channel efficiency.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <span class="edu-degree">Btech - Computer Science Engineering | CGPA - 8.6</span>
+      <span class="edu-year">2023</span>
+    </div>
+    <div class="edu-school">Rajiv Gandhi Proudyogiki Vishwavidyalaya - Jabalpur</div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section">
+    <div class="section-title">Certifications</div>
+    <ul class="cert-list">
+      <li>CISCO - Data Analytics Essentials</li>
+      <li>CISCO - Cybersecurity Essentials</li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>
